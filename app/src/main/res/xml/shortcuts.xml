@@ -1,0 +1,69 @@
+<?xml version ="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="id_function_1"
+        android:enabled="true"
+        android:icon="@mipmap/baseline_wifi_24"
+        android:roundIcon="@mipmap/baseline_wifi_24_round"
+        android:shortcutShortLabel="@string/shortcut_function_1_short"
+        android:shortcutLongLabel="@string/shortcut_function_1_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.myapplication"
+            android:targetClass="com.example.myapplication.sampledata.FirstShortcut_Internet" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="id_function_2"
+        android:enabled="true"
+        android:icon="@mipmap/baseline_volume_24"
+        android:roundIcon="@mipmap/baseline_volume_24_round"
+        android:shortcutShortLabel="@string/shortcut_function_2_short"
+        android:shortcutLongLabel="@string/shortcut_function_2_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.myapplication"
+            android:targetClass="com.example.myapplication.sampledata.SecondShortcut_Volume" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="id_function_3"
+        android:enabled="true"
+        android:icon="@mipmap/baseline_nfc_24"
+        android:roundIcon="@mipmap/baseline_nfc_24_round"
+        android:shortcutShortLabel="@string/shortcut_function_3_short"
+        android:shortcutLongLabel="@string/shortcut_function_3_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.myapplication"
+            android:targetClass="com.example.myapplication.sampledata.ThirdShortcut_NFC" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="id_function_4"
+        android:enabled="true"
+        android:icon="@mipmap/baseline_plane"
+        android:roundIcon="@mipmap/baseline_plane_round"
+        android:shortcutShortLabel="@string/shortcut_function_4_short"
+        android:shortcutLongLabel="@string/shortcut_function_4_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.myapplication"
+            android:targetClass="com.example.myapplication.sampledata.FourthShortcut_Network" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="id_function_5"
+        android:enabled="true"
+        android:icon="@mipmap/baseline_devops"
+        android:roundIcon="@mipmap/baseline_devops_round"
+        android:shortcutShortLabel="@string/shortcut_function_5_short"
+        android:shortcutLongLabel="@string/shortcut_function_5_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.myapplication"
+            android:targetClass="com.example.myapplication.sampledata.FifthShortcut_DevOps" />
+    </shortcut>
+
+
+</shortcuts>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/MainActivity">
+
+    <activity
+        android:id="@+id/MainActivity"
+        android:name="com.example.myapplication.ActivityFolder.MainActivity"
+        android:label="Main Activity">
+        <action
+            android:id="@+id/action_mainActivity_to_authorsActivity"
+            app:destination="@id/AuthorsActivity"/>
+    </activity>
+
+    <activity
+        android:id="@+id/AuthorsActivity"
+        android:name="com.example.myapplication.ActivityFolder.AuthorsActivity"
+        android:label="Authors Activity"/>
+
+    <activity
+        android:id="@+id/FirstShortcut_Internet"
+        android:name="com.example.myapplication.sampledata.FirstShortcut_Internet"
+        android:label="FirstShortcut Internet"/>
+
+    <activity
+        android:id="@+id/SecondShortcut_Volume"
+        android:name="com.example.myapplication.sampledata.SecondShortcut_Volume"
+        android:label="SecondShortcut Volume"/>
+
+    <activity
+        android:id="@+id/ThirdShortcut_NFC"
+        android:name="com.example.myapplication.sampledata.ThirdShortcut_NFC"
+        android:label="ThirdShortcut NFC"/>
+
+    <activity
+        android:id="@+id/FourthShortcut_Network"
+        android:name="com.example.myapplication.sampledata.FourthShortcut_Network"
+        android:label="FourthShortcut Network"/>
+
+    <activity
+        android:id="@+id/FifthShortcut_DevOps"
+        android:name="com.example.myapplication.sampledata.FifthShortcut_DevOps"
+        android:label="FifthShortcut DevOps"/>
+
+</navigation>

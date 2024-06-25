@@ -1,0 +1,151 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="?attr/colorSurface"
+    android:theme="@style/AppTheme"
+    tools:context=".ActivityFolder.MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorSurface"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:title="Crutch"
+        app:titleTextColor="?attr/colorOnSurface"
+        app:popupTheme="@style/AppTheme"/>
+
+
+    <LinearLayout
+        android:id="@+id/button_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_margin="24dp"
+            android:src="@drawable/baseline_wifi_24"
+            android:contentDescription="@string/First_button_description"
+            app:tint="?attr/colorOnBackground" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/First_button_text"
+            android:textSize="16sp"
+            android:textColor="?attr/colorOnBackground"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/bluetooth_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_margin="24dp"
+            android:src="@drawable/baseline_volume_up_24"
+            app:tint="?attr/colorOnBackground"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shortcut_function_2_long"
+            android:textSize="16sp"
+            android:textColor="?attr/colorOnBackground"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/nfc_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_margin="24dp"
+            android:src="@drawable/baseline_nfc_24"
+            android:scaleType="centerInside"
+            app:tint="?attr/colorOnBackground" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shortcut_function_3_long"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:textColor="?attr/colorOnBackground"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/network_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_margin="24dp"
+            android:src="@drawable/baseline_airplanemode_active_24"
+            app:tint="?attr/colorOnBackground" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shortcut_function_4_long"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:textColor="?attr/colorOnBackground"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/DevOp_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="?attr/selectableItemBackground"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_margin="24dp"
+            android:src="@drawable/baseline_data_object_24"
+            app:tint="?attr/colorOnBackground" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shortcut_function_5_long"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:textColor="?attr/colorOnBackground"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

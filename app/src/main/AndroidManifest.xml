@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/baseline_rain_24"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/baseline_rain_24_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".ActivityFolder.AuthorsActivity"
+            android:exported="false" />
+
+
+
+        <activity
+            android:name=".ActivityFolder.Sett"
+            android:exported="false"
+
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".sampledata.FifthShortcut_DevOps"
+            android:exported="false"
+            android:label="@string/title_activity_fifth_shortcut"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".sampledata.FourthShortcut_Network"
+            android:exported="false"
+            android:label="@string/title_activity_fourth_shortcut"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".sampledata.ThirdShortcut_NFC"
+            android:exported="false"
+            android:label="@string/title_activity_third_shortcut_nfc"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".sampledata.SecondShortcut_Volume"
+            android:exported="false"
+            android:label="@string/title_activity_second_shortcut_volume"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".sampledata.FirstShortcut_Internet"
+            android:exported="false"
+            android:label="@string/title_activity_first_shortcut1"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".ActivityFolder.MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity>
+    </application>
+</manifest>

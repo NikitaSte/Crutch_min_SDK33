@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Crutch</string>
+    <string name="First_buttom">Internet Settings</string>
+    <string name="Second_buttom">Volume Settings</string>
+    <string name="Third_buttom">NFC Settings</string>
+
+
+    <string name="appwidget_text">test</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget1">Add widget1</string>
+    <string name="add_widget2">Add widget2</string>
+    <string name="add_widget3">Add widget3</string>
+    <string name="app_widget_description">This is an app widget description</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="shortcut_function_1_short">Internet</string>
+    <string name="shortcut_function_1_long">Internet Settings</string>
+
+    <string name="shortcut_function_2_short">Volume</string>
+    <string name="shortcut_function_2_long">Volume Settings</string>
+
+    <string name="shortcut_function_3_short">NFC</string>
+    <string name="shortcut_function_3_long">NFC Settings</string>
+
+    <string name="shortcut_function_4_short">Network</string>
+    <string name="shortcut_function_4_long">Network&amp;internet</string>
+
+    <string name="shortcut_function_5_short">Developer Settings</string>
+    <string name="shortcut_function_5_long">Developer Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_first_shortcut1">FirstShortcut1</string>
+    <string name="title_activity_second_shortcut_volume">SecondShortcut_Volume</string>
+    <string name="title_activity_third_shortcut_nfc">ThirdShortcut_NFC</string>
+    <string name="title_activity_fourth_shortcut">FourthShortcut_Network</string>
+    <string name="title_activity_fifth_shortcut">FifthShortcut_DevOps</string>
+
+    <string name="add_widget">Add widget</string>
+
+    <string name="rssi">RSSI</string>
+    <string name="device_name">Device Name</string>
+    
+    <string name="First_button_description">Настройки интернета</string>
+    <string name="First_button_text">Fast Network Settings</string>
+
+    <string name="Sh">Шишкин Даниил</string>
+    <string name="S">Степанов Никита</string>
+    <string name="Autors">Авторы</string>
+    <string name="AboutApplication">О приложении</string>
+    <string name="Settings">Настройки</string>
+</resources>
